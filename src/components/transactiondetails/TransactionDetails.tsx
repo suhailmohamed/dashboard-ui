@@ -268,7 +268,7 @@ export const TransactionDetails: FC = () => {
     })
 
     return (
-        <>
+        <div>
             <h3 className="text-xl font-medium text-[#1A181E]">Transactions | This Month</h3>
 
             <Tab.Group defaultIndex={1}>
@@ -389,7 +389,7 @@ export const TransactionDetails: FC = () => {
                                                             </tr>
                                                         ))}
                                                     </tbody>
-                                                </table>
+                                                </table> 
                                             </div>
                                         </div>
                                     </div>
@@ -399,6 +399,6 @@ export const TransactionDetails: FC = () => {
                     ))}
                 </Tab.Panels>
             </Tab.Group>
-        </>
+        </div>
     )
 }

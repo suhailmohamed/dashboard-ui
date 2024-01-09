@@ -52,7 +52,7 @@ export const OverviewStats: FC<OverviewStatsProps> = ({
                                     <Menu.Item>
                                         {({ active }) => (
                                             <button
-                                                className={`${ active ? 'bg-indigo-600 text-white' : 'bg-indigo-500 text-white'
+                                                className={`${ active ? 'bg-[#146EB4] text-white' : 'bg-[#146EB4]/90 text-white'
                                                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                             >
                                                 This Month
@@ -63,7 +63,7 @@ export const OverviewStats: FC<OverviewStatsProps> = ({
                                     <Menu.Item>
                                         {({ active }) => (
                                             <button
-                                                className={`${active ? 'bg-indigo-500 text-white' : 'text-gray-900'
+                                                className={`${active ? 'bg-[#146EB4] text-white' : 'text-gray-900'
                                                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                             >
                                                 This Week
@@ -74,7 +74,7 @@ export const OverviewStats: FC<OverviewStatsProps> = ({
                                     <Menu.Item>
                                         {({ active }) => (
                                             <button
-                                                className={`${active ? 'bg-indigo-500 text-white' : 'text-gray-900'
+                                                className={`${active ? 'bg-[#146EB4] text-white' : 'text-gray-900'
                                                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                             >
                                                 Today

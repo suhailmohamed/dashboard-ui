@@ -8,12 +8,6 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  safelist: [
-    'bg-[#146EB4]', 
-    'text-white', 
-    'text-sm',
-    'font-normal'
-  ], 
   theme: {
     extend: {
       fontFamily: {

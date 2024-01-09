@@ -6,7 +6,7 @@ A simple Vite + React + TailwindCSS Project
 
 🔗 [https://dukaan-dashboard-ui-preview.netlify.app/](https://dukaan-dashboard-ui-preview.netlify.app/)
 
-## ❗Requirements [Completed : 4/4]
+## ❗Requirements [Completed : 5/5]
 
 1. ✅ Pixel Perfect Markup Completion
 2. ✅ I've made it responsive with my own creativity
